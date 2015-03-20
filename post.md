@@ -227,7 +227,7 @@ With the help of our generators for model tests, controller tests, routing tests
 A typical workflow with GeRT would look like the following:
 
  1. Make any kind of changes to your application, like removing a validation, adding an association, changing a route, adding another action to your controller.
- 2. When you're done with your first set of changes, run the **rail g spec_regression** command and track all changes and side effects you just created in the specs you have just generated. 
+ 2. When you're done with your first set of changes, run the **rail g regressor:model** or **rails g regressor:controller** command and track all changes and side effects you just created in the specs you have just generated. 
  3. Run the specs and check if you made any mistake. If yes, fix it! If no, *goto* 1. 
 
 ## 3.3 GeRT with benefits
